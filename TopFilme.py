@@ -66,3 +66,4 @@ print("Top filme după vizionări:", ", ".join(top_filme))
 # Top utilizatori cu cele mai multe filme vizionate - Cristian, George, Stefan
 top_utilizatori = [user['nume'] for user in sorted(My_list, key=lambda x: len(x['filme']), reverse=True)]
 print("Top utilizatori cu cele mai multe filme vizionate:", ", ".join(top_utilizatori))
+
